@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
     public void clickeffect(View view) {
         i=rnd.nextInt(3)+1;
 
+        btn1.setText(""+i);
+
         if(i==1)
             iv1.setImageResource(img1);
         else{
